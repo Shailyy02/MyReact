@@ -1,16 +1,14 @@
-import Header from './header.jsx';
-import Footer from './Footer.jsx';
-import Button from './Button.jsx';
+import UserGreeting from './UserGreeting.jsx'
 
+function App(){
 
-export function App() {
-  return (
-    <>
-      <Header></Header>
-      <Footer></Footer>
-      <Button></Button>
-    </>
-);
+    return(
 
+        <>
+           <UserGreeting isloggedIn={true} username="SHAILY"/>
+        
+        </>
+    );
 }
 
+export default App
