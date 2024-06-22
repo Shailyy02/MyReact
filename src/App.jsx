@@ -3,7 +3,7 @@ import Button from './Button.jsx'
 import Header from './header.jsx'
 import Footer from './Footer.jsx'
 import Button2 from './Button2.jsx'
-import counter from './Counter.jsx'
+import MyComponent from './MyComponent.jsx'
 function App(){
 
     return(
@@ -15,7 +15,7 @@ function App(){
           <Button></Button>
         <UserGreeting isloggedIn={true} username="SHAILY"/>
         <Button2></Button2>
-        <Counter/>
+        <MyComponent/>
         </>
     );
 }
